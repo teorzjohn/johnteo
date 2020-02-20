@@ -1,468 +1,493 @@
-body{
-    font-family: 'Rubik', sans-serif;
-    max-width: 940px;
-    margin: 0 auto;
-    margin-top: 3em;
+body {
+  font-family: "Rubik", sans-serif;
+  max-width: 940px;
+  margin: 0 auto;
+  margin-top: 3em;
 }
 
 /* Font Size */
-h1{
-    font-size: 3em;
-    line-height: 1.05em;
-    font-weight: 500;
+h1 {
+  font-size: 3em;
+  line-height: 1.05em;
+  font-weight: 500;
 }
 
-h2{
-    font-size: 2.25em;
-    line-height: 1.25em;
-    font-weight: 400;
-    margin: 0;
+h2 {
+  font-size: 2.25em;
+  line-height: 1.25em;
+  font-weight: 400;
+  margin: 0;
 }
 
-h3{
-    font-size: 1.5em;
-    line-height: 1.25em;
-    font-weight: 400;
-    margin: 0 0 75px 0;
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25em;
+  font-weight: 400;
+  margin: 0 0 75px 0;
 }
 
-h4{
-    font-size: 1.333em;
-    line-height: 1.2222222em;
-    font-weight: 500;
+h4 {
+  font-size: 1.333em;
+  line-height: 1.2222222em;
+  font-weight: 500;
 }
 
-h5{
-    font-size: 1.1667em;
-    line-height: 1.2222222em;
-    font-weight: 500;
-    margin-bottom: 20px; 
+h5 {
+  font-size: 1.1667em;
+  line-height: 1.2222222em;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
-h6{
-    font-size: 1.1667em;
-    line-height: 1.2222222em;
-    font-weight: 500;
-    margin-top: 80px; 
+h6 {
+  font-size: 1.1667em;
+  line-height: 1.2222222em;
+  font-weight: 500;
+  margin-top: 80px;
 }
 
-p{
-    font-size: 1.1667em;
-    line-height: 1.375em;
-    margin: 0;
-    font-weight: 300;
+p {
+  font-size: 1.1667em;
+  line-height: 1.375em;
+  margin: 0;
+  font-weight: 300;
 }
 
-a{
-    text-decoration: none;
-    color: #000000;
-    font-weight: 500;
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
 }
 
-a:hover{
-    color:#3C54A4;
+a:hover {
+  color: #3c54a4;
 }
 
-.title{
-    margin: 160px 0 20px 0;
+.title {
+  margin: 160px 0 20px 0;
 }
 
-.subheader{
-    font-weight: 300;
+.subheader {
+  font-weight: 300;
 }
 
-.spacing{
-    margin: 0 0 20px 0;
+.spacing {
+  margin: 0 0 20px 0;
 }
 
-.grey{
-    color: #7D7D7D;
+.grey {
+  color: #7d7d7d;
 }
 
 /* Navigation */
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-li{
-    margin-left: 22px;
-    font-weight: 400;
+li {
+  margin-left: 22px;
+  font-weight: 400;
 }
 
-nav{
-    position: fixed; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    background-color: white;
-    border-bottom: 1px solid rgb(241, 241, 241);
-    z-index:100;
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  border-bottom: 1px solid rgb(241, 241, 241);
+  z-index: 100;
 }
 
-.navcontent{
+.navcontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.navigationlist {
+  display: flex;
+  margin: 0;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+/* Project Classes */
+.mainbody-01 {
+  width: 66%;
+  margin-right: 100px;
+}
+
+.mainbody-02 {
+  width: 66%;
+}
+
+.mainbody-03 {
+  width: 66%;
+  margin-left: 320px;
+}
+
+.mainbody-04 {
+  width: 30%;
+  margin-left: 45px;
+  margin-bottom: 90px;
+}
+
+.mainbody-05 {
+  width: 30%;
+  margin-right: 45px;
+  margin-bottom: 90px;
+}
+
+.mainbody-06 {
+  width: 66%;
+  margin-bottom: 90px;
+}
+
+.paragraphbreak {
+  margin-top: 30px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.projectinfo {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.projectstatus {
+  width: 24%;
+}
+
+.primarydetails {
+  color: #3c54a4;
+}
+
+.secondarydetails {
+  padding-bottom: 20px;
+}
+
+.thirddetails {
+  color: gray;
+  padding-bottom: 20px;
+}
+
+.projectheader {
+  text-align: center;
+  margin-top: 140px;
+}
+
+.projectprogress {
+  display: flex;
+}
+
+.projectdesign-01 {
+  display: flex;
+}
+
+.projectdesign-02 {
+  display: flex;
+}
+
+.designpicture-01 {
+  width: 66%;
+}
+
+.imageflush {
+  margin: 0 0 90px 0;
+}
+
+.projecttitle {
+  width: 18%;
+  margin-right: 140px;
+}
+
+/* Grid stuff for Home */
+
+.grid {
+  display: inline-block;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  height: 240px;
+  margin-top: 60px;
+}
+
+.middle {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.column h4 {
+  z-index: 2;
+  position: relative;
+  margin-top: -60px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  padding-right: 30px;
+}
+
+.column h5 {
+  z-index: 2;
+  margin: 0 0 0 15px;
+  opacity: 0.7;
+  font-weight: 400;
+}
+
+.column img {
+  width: 100%;
+  margin: 0;
+}
+
+.row a:hover {
+  color: #000000;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.box img {
+  transition: 0.5s;
+  width: 100%;
+  height: 190px;
+}
+
+.column:hover img {
+  transform: scale(1.1);
+}
+
+.box::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0,
+    rgb(255, 255, 255) 100%
+  );
+  margin-top: -140px;
+  height: 140px;
+  width: 100%;
+  content: "";
+}
+
+.nohover:hover img {
+  transform: none !important;
+}
+
+/* Footer */
+
+footer {
+  margin: 120px 0 120px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.svg-inline--fa {
+  width: 20px;
+}
+
+.sociallink {
+  margin: 0px 8px;
+}
+
+.copyright {
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0 24px;
+  }
+
+  .navcontent {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
     max-width: 940px;
     margin: 0 auto;
-}
+    padding: 0 24px;
+  }
 
+  h1 {
+    font-size: 1.65em;
+    line-height: 1.05em;
+    font-weight: 500;
+  }
 
-.navigationlist{
-    display: flex;
-    margin: 0;
-}
-
-.logo{
-    font-weight: 700;
-}
-
-
-/* Project Classes */
-.mainbody-01{
-    width: 66%;
-    margin-right: 100px;
-}
-
-.mainbody-02{
-    width: 66%;
-}
-
-.mainbody-03{
-    width: 66%;
-    margin-left: 320px;
-}
-
-.mainbody-04{
-    width: 30%;
-    margin-left: 45px;
-    margin-bottom: 90px;
-}
-
-.mainbody-05{
-    width: 30%;
-    margin-right: 45px;
-    margin-bottom: 90px;
-}
-
-.mainbody-06{
-    width: 66%;
-    margin-bottom: 90px;
-}
-
-.paragraphbreak{
-    margin-top: 30px;
-}
-
-img{
-    width: 100%;
-    height: auto;
-    margin-top: 90px;
-    margin-bottom: 90px;
-}
-
-.projectinfo{
-    display: flex;
-    margin-bottom: 90px;
-}
-
-.projectstatus{
-    width: 24%;
-}
-
-.primarydetails{
-    color:#3C54A4;
-}
-
-.secondarydetails{
-    padding-bottom: 20px;
-}
-
-.thirddetails{
-    color: gray;
-    padding-bottom: 20px;
-}
-
-.projectheader{
-    text-align: center;
-    margin-top: 140px;
-}
-
-.projectprogress{
-    display: flex; 
-}
-
-.projectdesign-01{
-    display: flex;
-}
-
-.projectdesign-02{
-    display: flex;
-}
-
-.designpicture-01{
-    width: 66%;
-}
-
-.imageflush{
-    margin: 0 0 90px 0;
-}
-
-.projecttitle{
-    width: 18%;
-    margin-right: 140px;
-}
-
-/* Grid stuff for Home */
-.column{
-    float: left;
-    width: 32%;
-    height: 240px;
-    margin-top: 60px;
-}
-
-.middle{
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-.column h4{
-    z-index: 2;
-    position: relative;
-    margin-top: -60px;
-    margin-left: 15px;
-    margin-bottom: 5px;
-    padding-right: 30px;
-}
-
-.column h5 {
-    z-index: 2;
-    margin: 0 0 0 15px;
-    opacity: 0.7;
+  h2 {
+    font-size: 1.5em;
+    line-height: 1.2em;
     font-weight: 400;
-
-}
-
-.column img {
-    width: 100%;
     margin: 0;
-}
+  }
 
-.row a:hover{
-    color: #000000;
-}
+  h3 {
+    font-size: 1.15em;
+    line-height: 1.2em;
+    font-weight: 400;
+    margin: 0 0 25px 0;
+  }
 
-.box{
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
- 
-}
+  h4 {
+    font-size: 1.125em;
+    line-height: 1.2222222em;
+    font-weight: 500;
+  }
 
-.box img{
+  h5 {
+    font-size: 1em;
+    line-height: 1.2222222em;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  h6 {
+    font-size: 1em;
+    line-height: 1.2222222em;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0;
+    font-weight: 300;
+  }
+
+  .column {
+    width: 100%;
+    height: 320px;
+  }
+
+  .box img {
     transition: 0.5s;
     width: 100%;
-    height: 190px;
-}
-
-.column:hover img{
-    transform: scale(1.1);
-}
-
-.box::after {
-  display: block;
-  position: relative;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgb(255, 255, 255) 100%);
-  margin-top: -140px;
-  height: 140px;
-  width: 100%;
-  content: '';
-}
-
-.nohover:hover img {
-    transform: none !important;
-}
-
-
-@media screen and (max-width: 600px) {
-    body{
-        padding: 0 24px;
-    }
-
-    .navcontent{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 100%;
-        max-width: 940px;
-        margin: 0 auto;
-        padding: 0 24px;
-    }
-
-    h1{
-        font-size: 1.65em;
-        line-height: 1.05em;
-        font-weight: 500;
-    }
-    
-    h2{
-        font-size: 1.5em;
-        line-height: 1.2em;
-        font-weight: 400;
-        margin: 0;
-    }
-    
-    h3{
-        font-size: 1.15em;
-        line-height: 1.2em;
-        font-weight: 400;
-        margin: 0 0 25px 0;
-    }
-    
-    h4{
-        font-size: 1.125em;
-        line-height: 1.2222222em;
-        font-weight: 500;
-    }
-    
-    h5{
-        font-size: 1em;
-        line-height: 1.2222222em;
-        font-weight: 500;
-        margin-bottom: 20px; 
-    }
-
-    h6{
-        font-size: 1em;
-        line-height: 1.2222222em;
-        font-weight: 500;
-        margin-bottom: 20px; 
-        margin-top: 30px;
-    }
-    
-    p{
-        font-size: 1em;
-        line-height: 1.5em;
-        margin: 0;
-        font-weight: 300;
-    }
-
-    .column{
-        width: 100%;
-        height: 320px;
-    }
-
-    .box img{
-        transition: 0.5s;
-        width: 100%;
-        height: 280px;
-    }
-
-    .box{
-        position: inherit;
-        overflow: hidden;
-        z-index: 1;
-    }
-    
-    .middle{
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .mainbody-01{
-        width: 100%;
-        margin-right: 100px;
-    }
-    
-    .mainbody-02{
-        width: 100%;
-    }
-    
-    .mainbody-03{
-        width: 100%;
-        margin-left:0;
-    }
-    
-    .mainbody-04{
-        width: 100%;
-        margin-left: 0px;
-        margin-bottom: 45px;
-    }
-    
-    .mainbody-05{
-        width: 100%;
-        margin-right: 0px;
-        margin-bottom: 45px;
-    }
-    
-    .mainbody-06{
-        width: 100%;
-        margin-bottom: 45px;
-    }
-    
-    .paragraphbreak{
-        margin-top: 30px;
-    }
-
-    img{
-        width: 100%;
-        height: auto;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .projectinfo{
-        display: flex;
-        flex-direction: column-reverse;
-        margin-bottom: 45px;
-    }
-
-    .primarydetails{
-        display: none;
-    }
-    
-    .secondarydetails{
-        display: none;
-    }
-    
-    .thirddetails{
-        display: none;
-    }
-
-    .projecttitle{
-        width: 100%;
-    }
-
-    .projectprogress{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .projectdesign-01{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .projectdesign-02{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    
-    .designpicture-01{
-        width: 100%;
-    }
-
-    .imageflush{
-        margin: 0 0 30px 0;
-    }
-
-    .projectheader{
-        text-align: center;
-        margin-top: 90px;
-    }
-
+    height: 280px;
   }
+
+  .box {
+    position: inherit;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .middle {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .mainbody-01 {
+    width: 100%;
+    margin-right: 100px;
+  }
+
+  .mainbody-02 {
+    width: 100%;
+  }
+
+  .mainbody-03 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .mainbody-04 {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 45px;
+  }
+
+  .mainbody-05 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 45px;
+  }
+
+  .mainbody-06 {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+
+  .paragraphbreak {
+    margin-top: 30px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .projectinfo {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 45px;
+  }
+
+  .primarydetails {
+    display: none;
+  }
+
+  .secondarydetails {
+    display: none;
+  }
+
+  .thirddetails {
+    display: none;
+  }
+
+  .projecttitle {
+    width: 100%;
+  }
+
+  .projectprogress {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .projectdesign-01 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .projectdesign-02 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .designpicture-01 {
+    width: 100%;
+  }
+
+  .imageflush {
+    margin: 0 0 30px 0;
+  }
+
+  .projectheader {
+    text-align: center;
+    margin-top: 90px;
+  }
+}
