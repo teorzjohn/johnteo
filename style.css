@@ -290,6 +290,11 @@ img {
   transform: none !important;
 }
 
+.gif {
+  outline: 1px solid #fff;
+  outline-offset: -1px;
+}
+
 /* Footer */
 
 footer {
