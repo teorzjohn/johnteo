@@ -46,6 +46,14 @@ h6 {
   margin-top: 80px;
 }
 
+span{
+  display: inline-block;
+  font-size:1.0833em;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 90px;
+}
+
 p {
   font-size: 1.1667em;
   line-height: 1.375em;
@@ -77,6 +85,11 @@ a:hover {
 
 .grey {
   color: #7d7d7d;
+}
+
+.grey02{
+  color: #7D7D7D;
+  margin-top: 80px;
 }
 
 /* Navigation */
@@ -161,6 +174,14 @@ img {
   margin-bottom: 90px;
 }
 
+.captionmb{
+  margin-bottom:10px !important;
+}
+
+.rightcontainer{
+  direction: rtl;
+}
+
 .projectinfo {
   display: flex;
   margin-bottom: 90px;
@@ -170,12 +191,22 @@ img {
   width: 24%;
 }
 
-.primarydetails {
-  color: #3c54a4;
+.primarydetails{
+  color:#000000;
 }
 
-.secondarydetails {
+.primarydetails02{
+  color:#000000;
+}
+
+.secondarydetails{
+  color:#3C54A4;
   padding-bottom: 20px;
+}
+
+.secondarydetails02{
+  color:#3C54A4;
+  padding-top:20px;
 }
 
 .thirddetails {
@@ -222,13 +253,17 @@ img {
 .column {
   float: left;
   width: 32%;
-  height: 240px;
+  height: 220px;
   margin-top: 60px;
 }
 
 .middle {
   margin-left: 2%;
   margin-right: 2%;
+}
+
+.smallgap{
+  height: 185px !important; 
 }
 
 .column h4 {
