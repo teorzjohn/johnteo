@@ -258,7 +258,7 @@ img {
   margin-top: 80px;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 40px 40px;
+  grid-gap: 40px 20px;
 }
 
 .column {
@@ -299,6 +299,7 @@ img {
 .box img {
   transition: 0.5s;
   width: 100%;
+  height: 190px;
 }
 
 .column:hover img {
@@ -347,7 +348,7 @@ img {
 }
 
 .aboutwrapper img {
-  width: 34%;
+  width: 36%;
   margin-top: 112px;
 }
 
@@ -395,7 +396,7 @@ footer {
   .grid {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 20px 20px;
+    grid-gap: 30px 20px;
   }
 
   .about {
@@ -463,6 +464,14 @@ footer {
     margin-top: 30px;
   }
 
+  span {
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+
   p {
     font-size: 1em;
     line-height: 1.5em;
@@ -479,6 +488,7 @@ footer {
   .box img {
     transition: 0.5s;
     width: 100%;
+    height: 280px;
   }
 
   .box {
