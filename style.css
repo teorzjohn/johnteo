@@ -258,7 +258,7 @@ img {
   margin-top: 80px;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 20px 20px;
+  grid-gap: 40px 40px;
 }
 
 .column {
@@ -299,7 +299,6 @@ img {
 .box img {
   transition: 0.5s;
   width: 100%;
-  height: 190px;
 }
 
 .column:hover img {
@@ -348,7 +347,7 @@ img {
 }
 
 .aboutwrapper img {
-  width: 36%;
+  width: 34%;
   margin-top: 112px;
 }
 
@@ -480,7 +479,6 @@ footer {
   .box img {
     transition: 0.5s;
     width: 100%;
-    height: 280px;
   }
 
   .box {
