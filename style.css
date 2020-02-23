@@ -258,7 +258,7 @@ img {
   margin-top: 80px;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 20px 20px;
+  grid-gap: 40px 20px;
 }
 
 .column {
@@ -396,7 +396,7 @@ footer {
   .grid {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 20px 20px;
+    grid-gap: 30px 20px;
   }
 
   .about {
@@ -462,6 +462,14 @@ footer {
     font-weight: 500;
     margin-bottom: 20px;
     margin-top: 30px;
+  }
+
+  span {
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 30px;
   }
 
   p {
