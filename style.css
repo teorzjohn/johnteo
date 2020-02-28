@@ -347,7 +347,7 @@ img {
 }
 
 .aboutwrapper img {
-  width: 36%;
+  width: 44%;
   margin-top: 112px;
   margin-bottom: 10px;
 }
@@ -473,7 +473,7 @@ footer {
   }
 
   p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 1.5em;
     margin: 0;
     font-weight: 300;
