@@ -6,19 +6,13 @@
  * Copyright (C) 2016-17 Ashish
  */
 
-.progressive {
-  overflow: hidden;
-  position: relative;
-  background: #efefef;
-}
-
 .progressive__img {
   width: 100%;
   height: 100%;
 }
 
 .progressive--not-loaded {
-  filter: blur(2px);
+  filter: blur(4px);
 }
 
 .progressive--is-loaded {
@@ -28,7 +22,7 @@
 
 @keyframes sharpen {
   from {
-    filter: blur(2px);
+    filter: blur(4px);
   }
   to {
     filter: blur(0px);
