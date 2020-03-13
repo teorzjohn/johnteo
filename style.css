@@ -350,6 +350,7 @@ img {
   width: 770px;
   margin-top: 112px;
   margin-bottom: 10px;
+  overflow: hidden;
 }
 
 .profileimg img {
@@ -407,7 +408,7 @@ footer {
     width: 80%;
   }
 
-  .aboutwrapper img {
+  .profileimg {
     display: none;
   }
 }
