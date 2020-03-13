@@ -151,7 +151,7 @@ nav {
 
 .mainbody-03 {
   width: 66%;
-  margin-left: 320px;
+  margin-left: 34%;
 }
 
 .mainbody-04 {
@@ -346,15 +346,10 @@ img {
   width: 88%;
 }
 
-.profileimg {
-  width: 80%;
+.aboutwrapper img {
+  width: 44%;
   margin-top: 112px;
   margin-bottom: 10px;
-  overflow: hidden;
-}
-
-.profileimg img {
-  margin: 0;
 }
 
 /* Footer */
@@ -408,7 +403,7 @@ footer {
     width: 80%;
   }
 
-  .profileimg {
+  .aboutwrapper img {
     display: none;
   }
 }
@@ -429,40 +424,40 @@ footer {
   }
 
   h1 {
-    font-size: 1.65em;
+    font-size: 1.8em;
     line-height: 1.05em;
     font-weight: 500;
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.65em;
     line-height: 1.2em;
     font-weight: 400;
     margin: 0;
   }
 
   h3 {
-    font-size: 1.15em;
+    font-size: 1.5em;
     line-height: 1.2em;
     font-weight: 400;
     margin: 0 0 25px 0;
   }
 
   h4 {
-    font-size: 1.125em;
-    line-height: 1.2222222em;
+    font-size: 1.5em;
+    line-height: 1.3em;
     font-weight: 500;
   }
 
   h5 {
-    font-size: 1em;
+    font-size: 1.333em;
     line-height: 1.2222222em;
     font-weight: 500;
     margin-bottom: 20px;
   }
 
   h6 {
-    font-size: 1em;
+    font-size: 1.333em;
     line-height: 1.2222222em;
     font-weight: 500;
     margin-bottom: 20px;
@@ -471,14 +466,14 @@ footer {
 
   span {
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 300;
     font-style: italic;
     margin-bottom: 30px;
   }
 
   p {
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1.5em;
     margin: 0;
     font-weight: 300;
@@ -558,14 +553,22 @@ footer {
     display: none;
   }
 
+  .primarydetails02 {
+    display:none;
+  }
+
   .secondarydetails {
     display: none;
+  }
+
+  .secondarydetails02 {
+    display:none;
   }
 
   .thirddetails {
     display: none;
   }
-
+ 
   .projecttitle {
     width: 100%;
   }
@@ -597,7 +600,7 @@ footer {
 
   .projectheader {
     text-align: center;
-    margin-top: 90px;
+    margin-top: 120px;
   }
 
   .about {
