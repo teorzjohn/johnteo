@@ -346,10 +346,15 @@ img {
   width: 88%;
 }
 
-.aboutwrapper img {
-  width: 36%;
+.profileimg {
+  width: 80%;
   margin-top: 112px;
   margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.profileimg img {
+  margin: 0;
 }
 
 /* Footer */
@@ -403,7 +408,7 @@ footer {
     width: 80%;
   }
 
-  .aboutwrapper img {
+  .profileimg {
     display: none;
   }
 }

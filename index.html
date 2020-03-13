@@ -15,6 +15,11 @@
       rel="stylesheet"
       type="text/css"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/progressively/dist/progressively.min.css"
+    />
   </head>
 
   <!-- Body is the content that people see on the website -->
@@ -56,7 +61,11 @@
       <div class="column">
         <a href="forb.html">
           <div class="box">
-            <img src="Images/coming.png" />
+            <img
+              class="progressive__img progressive--not-loaded"
+              data-progressive="Images/coming.png"
+              src="Images/coming.png"
+            />
           </div>
           <h4>The Future of <br />Retail Banking</h4>
           <h5>Fjord</h5>
@@ -66,7 +75,11 @@
       <div class="column">
         <a href="switch.html">
           <div class="box">
-            <img src="Images/switch-00.jpg" />
+            <img
+              class="progressive__img progressive--not-loaded"
+              data-progressive="Images/switch-00.jpg"
+              src="Images/switch-00-s.jpg"
+            />
           </div>
           <h4>Upskilling Digital <br />Proficiency</h4>
           <h5>Oil and Gas Company</h5>
@@ -76,7 +89,11 @@
       <div class="column">
         <a href="pivot.html">
           <div class="box">
-            <img src="Images/oilandgas-00.jpg" />
+            <img
+              class="progressive__img progressive--not-loaded"
+              data-progressive="Images/oilandgas-00.jpg"
+              src="Images/oilandgas-00-s.jpg"
+            />
           </div>
           <h4><br />Visualizing Data</h4>
           <h5>Oil and Gas Company</h5>
@@ -86,7 +103,11 @@
       <div class="column">
         <a href="airline.html">
           <div class="box">
-            <img src="Images/airline-00.jpg" />
+            <img
+              class="progressive__img progressive--not-loaded"
+              data-progressive="Images/airline-00.jpg"
+              src="Images/airline-00-s.jpg"
+            />
           </div>
           <h4>
             A Beacon for Better <br />
@@ -99,7 +120,11 @@
       <div class="column">
         <a href="dbs.html">
           <div class="box">
-            <img src="Images/dbs-00.jpg" />
+            <img
+              class="progressive__img progressive--not-loaded"
+              data-progressive="Images/dbs-00.jpg"
+              src="Images/dbs-00-s.jpg"
+            />
           </div>
           <h4><br />Redesigning the ATM</h4>
           <h5>DBS</h5>
@@ -109,7 +134,11 @@
       <div class="column">
         <a href="afford.html">
           <div class="box">
-            <img src="Images/afford-00.jpg" />
+            <img
+              class="progressive__img progressive--not-loaded"
+              data-progressive="Images/afford-00.jpg"
+              src="Images/afford-00-s.jpg"
+            />
           </div>
           <h4>
             Financial Empowerment <br />
@@ -122,7 +151,11 @@
       <div class="column">
         <a href="aubergine.html">
           <div class="box">
-            <img src="Images/aubergine-00.jpg" />
+            <img
+              class="progressive__img progressive--not-loaded"
+              data-progressive="Images/aubergine-00.jpg"
+              src="Images/aubergine-00-s.jpg"
+            />
           </div>
           <h4><br />Comfort in a Puff</h4>
           <h5>Studio Aubergine</h5>
@@ -195,5 +228,15 @@
       </div>
       <span class="copyright">Teo Ren Zhong John © 2020</span>
     </footer>
+
+    <script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
+    <script>
+      progressively.init({
+        delay: 0,
+        onLoadComplete: function() {
+          console.log("All images loaded!");
+        }
+      });
+    </script>
   </body>
 </html>
