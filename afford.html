@@ -13,7 +13,9 @@
     <link
       href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
       rel="stylesheet"
+      type="text/css"
     />
+    <link rel="stylesheet" href="progressively.css" />
   </head>
 
   <!-- Body is the content that people see on the website -->
@@ -43,7 +45,9 @@
     <div class="projectheader">
       <h4>CASE STUDY - 2018</h4>
       <h1>Financial Empowerment <br />in a Cashless Society</h1>
-      <img src="Images/afford-01.jpg" />
+      <img class="progressive__img progressive--not-loaded"
+      data-progressive="Images/afford-01.jpg"
+      src="Images/afford-01-s.jpg" />
     </div>
     <div class="projectinfo">
       <div class="mainbody-01">
@@ -94,7 +98,9 @@
       </div>
     </div>
     <div class="rightcontainer">
-      <img class="captionmb" src="Images/afford-02.png" />
+      <img class="captionmb progressive__img progressive--not-loaded" 
+      data-progressive="Images/afford-02.png"
+      src="Images/afford-02-s.jpg" />
       <span>Interviewing participants from advanced cashless societies</span>
     </div>
     <div class="mainbody-03">
@@ -108,7 +114,9 @@
       </p>
     </div>
     <div class="rightcontainer">
-      <img class="captionmb" src="Images/afford-03.jpg" />
+      <img class="captionmb progressive__img progressive--not-loaded" 
+      data-progressive="Images/afford-03.jpg"
+      src="Images/afford-03-s.jpg" />
       <span>Ideation of different payment interactions</span>
     </div>
     <div class="mainbody-03">
@@ -121,7 +129,9 @@
       </p>
     </div>
     <div class="rightcontainer">
-      <img class="captionmb" src="Images/afford-04.png" />
+      <img class="captionmb progressive__img progressive--not-loaded" 
+      data-progressive="images/afford-04.png"
+      src="Images/afford-04-s.jpg" />
       <span>User testing Results: The Experience of Paying</span>
     </div>
     <h3>The Design</h3>
@@ -205,5 +215,16 @@
       </div>
       <span class="copyright">Teo Ren Zhong John © 2020</span>
     </footer>
+
+    <script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
+    <script>
+      progressively.init({
+        delay: 0,
+        onLoadComplete: function() {
+          console.log("All images loaded!");
+        }
+      });
+    </script>
+    
   </body>
 </html>

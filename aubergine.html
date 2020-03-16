@@ -7,7 +7,12 @@
         <title>John Teo Portfolio</title>
          <!-- Title is the name you see on the tab/link -->
          <link rel="stylesheet" type="text/css" href="style.css">
-         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
+         <link 
+         href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" 
+         rel="stylesheet"
+         type="text/css"
+         />
+         <link rel="stylesheet" href="progressively.css" />
     </head>
 
     <!-- Body is the content that people see on the website -->
@@ -30,7 +35,9 @@
         <div class="projectheader">
             <h4>CASE STUDY - 2016</h4>
             <h1>Comfort in a Puff</h1>
-            <img src="Images/aubergine-01.jpg"/>
+            <img class="progressive__img progressive--not-loaded"
+            data-progressive="Images/aubergine-01.jpg"
+            src="Images/aubergine-01-s.jpg"/>
         </div>
         <div class="projectinfo">
             <div class="mainbody-01">
@@ -78,11 +85,14 @@
                     it was within budget without compromising on the user experience or product quality. </p>
             </div>
         </div>
-        <img src="Images/aubergine-03.png"/>
+        <img class="progressive__img progressive--not-loaded"
+        data-progressive="Images/aubergine-03.png"
+        src="Images/aubergine-03-s.jpg"/>
         <h3>The Design</h3>
         <div class="projectdesign-01">
             <div class="designpicture-01">
-                <img class="imageflush" src="Gifs/aubergine-04.gif"/>
+                <img class="imageflush" 
+                src="Gifs/aubergine-04.gif"/>
             </div>
             <div class="mainbody-04">
                 <p>The Aubergine Pillow inflates effortlessly with just a single puff. 
@@ -100,7 +110,8 @@
                     into your bag, and your lifestyle.</p>
             </div>
             <div class="designpicture-01">
-                <img class="imageflush" src="Images/aubergine-02.jpg"/>
+                <img class="imageflush" 
+                src="Images/aubergine-02.jpg"/>
          </div>
         </div>
          <footer>
@@ -169,5 +180,16 @@
             </div>
             <span class="copyright">Teo Ren Zhong John © 2020</span>
           </footer>
+
+          <script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
+          <script>
+            progressively.init({
+              delay: 0,
+              onLoadComplete: function() {
+                console.log("All images loaded!");
+              }
+            });
+          </script>
+          
     </body>
 </html>

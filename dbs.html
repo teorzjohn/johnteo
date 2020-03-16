@@ -13,7 +13,9 @@
     <link
       href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
       rel="stylesheet"
+      type="text/css"
     />
+    <link rel="stylesheet" href="progressively.css" />
   </head>
 
   <!-- Body is the content that people see on the website -->
@@ -43,7 +45,9 @@
     <div class="projectheader">
       <h4>CASE STUDY - 2017</h4>
       <h1>Redesigning the ATM</h1>
-      <img src="Images/dbs-05.jpg" />
+      <img class="progressive__img progressive--not-loaded"
+      data-progressive="Images/dbs-01.jpg"
+      src="Images/dbs-01-s.jpg" />
     </div>
     <div class="projectinfo">
       <div class="mainbody-01">
@@ -104,7 +108,9 @@
       </div>
     </div>
     <div class="rightcontainer">
-      <img class="captionmb" src="Images/dbs-06.jpg" />
+      <img class="captionmb progressive__img progressive--not-loaded" 
+      data-progressive="Images/dbs-02.jpg"
+      src="Images/dbs-02-s.jpg" />
       <span>Studying the various banks visual language</span>
     </div>
     <div class="mainbody-03">
@@ -116,7 +122,9 @@
         banks.
       </p>
     </div>
-    <img src="Images/dbs-07.jpg" />
+    <img class="progressive__img progressive--not-loaded"
+    data-progressive="Images/dbs-03.jpg"
+    src="Images/dbs-03-s.jpg" />
     <div class="mainbody-03">
       <h5 class="grey">USER TESTING</h5>
       <p>
@@ -131,13 +139,16 @@
       </p>
     </div>
     <div class="rightcontainer">
-      <img class="captionmb" src="Images/dbs-08.png" />
+      <img class="captionmb progressive__img progressive--not-loaded" 
+      data-progressive="Images/dbs-04.png"
+      src="Images/dbs-04-s.jpg" />
       <span>Testing the new ATM+ and BTM+ designs</span>
     </div>
     <h3>The Design</h3>
     <div class="projectdesign-01">
       <div class="designpicture-01">
-        <img class="imageflush" src="Images/dbs-01.jpg" />
+        <img class="imageflush" 
+        src="Images/dbs-05.jpg" />
       </div>
       <div class="mainbody-04">
         <p>
@@ -161,12 +172,14 @@
         </p>
       </div>
       <div class="designpicture-01">
-        <img class="imageflush" src="Images/dbs-09.jpg" />
+        <img class="imageflush" 
+        src="Images/dbs-06.jpg" />
       </div>
     </div>
     <div class="projectdesign-01">
       <div class="designpicture-01">
-        <img class="imageflush" src="Images/dbs-02.jpg" />
+        <img class="imageflush" 
+        src="Images/dbs-07.jpg" />
       </div>
       <div class="mainbody-04">
         <p>
@@ -244,5 +257,16 @@
       </div>
       <span class="copyright">Teo Ren Zhong John © 2020</span>
     </footer>
+
+    <script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
+    <script>
+      progressively.init({
+        delay: 0,
+        onLoadComplete: function() {
+          console.log("All images loaded!");
+        }
+      });
+    </script>
+
   </body>
 </html>

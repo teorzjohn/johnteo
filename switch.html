@@ -12,8 +12,10 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
-      rel="stylesheet"
+      rel="stylesheet" 
+      type="text/css"
     />
+    <link rel="stylesheet" href="progressively.css" />
   </head>
 
   <!-- Body is the content that people see on the website -->
@@ -42,7 +44,9 @@
     <div class="projectheader">
         <h4>CASE STUDY - 2019</h4>
         <h1>Upskilling Digital Proficiency</h1>
-        <img src="Images/switch-01.png"/>
+        <img class="progressive__img progressive--not-loaded"
+        data-progressive="Images/switch-01.png"
+        src="Images/switch-01-s.jpg"/>
     </div>
     </div>
     <div class="projectinfo">
@@ -87,7 +91,10 @@
         </div>
     </div>
     <div class="rightcontainer">
-        <img class="captionmb" src="Images/switch-02.png">
+        <img 
+        class="captionmb progressive__img progressive--not-loaded" 
+        data-progressive="Images/switch-02.png"
+        src="Images/switch-02-s.jpg">
         <span>Features card sorting</span>
     </div>
     <div class="mainbody-03">
@@ -101,7 +108,9 @@
           from the product owner.</p>
     </div>
     <div class="rightcontainer">
-        <img class="captionmb" src="Images/switch-03.png">
+        <img class="captionmb progressive__img progressive--not-loaded"
+        data-progressive="Images/switch-03.png"
+        src="Images/switch-03-s.jpg">
         <span>Chosen visual direction for Switch</span>
     </div>
     <div class="mainbody-03">
@@ -112,7 +121,9 @@
           the designs were constantly printed out for others to comment and give feedback.</p>
     </div>
     <div class="rightcontainer">
-        <img class="captionmb" src="Images/switch-04.png">
+        <img class="captionmb progressive__img progressive--not-loaded" 
+        data-progressive="Images/switch-04.png"
+        src="Images/switch-04-s.jpg">
         <span>Quick and dirty prototypes</span>
     </div>
     <div class="mainbody-03">
@@ -123,13 +134,16 @@
           posed to better understand their thought processes and how they would improve the current design.</p>
     </div>
     <div class="rightcontainer">
-        <img class="captionmb" src="Images/switch-05.png">
+        <img class="captionmb progressive__img progressive--not-loaded" 
+        data-progressive="Images/switch-05.png"
+        src="Images/switch-05-s.jpg">
         <span>Testing out the new designs</span>
     </div>
     <h3>The Design</h3>
     <div class="projectdesign-01">
         <div class="designpicture-01">
-            <img class="imageflush" src="Images/switch-06.png"/>
+            <img class="imageflush"
+            src="Images/switch-06.png"/>
         </div>
         <div class="mainbody-04">
             <p>From mobile to tablet to desktop, we had to ensure the experience was standardized. 
@@ -146,12 +160,14 @@
               compete with each other.</p>
         </div>
         <div class="designpicture-01">
-            <img class="imageflush" src="Gifs/switch-01.gif"/>
+            <img class="imageflush" 
+            src="Gifs/switch-07.gif"/>
         </div>
     </div>
     <div class="projectdesign-01">
             <div class="designpicture-01">
-                <img class="imageflush" src="Gifs/switch-02.gif">
+                <img class="imageflush" 
+                src="Gifs/switch-08.gif">
             </div>
             <div class="mainbody-04">
                 <p>Many of the leaders were interested to see the engagement with the platform. 
@@ -227,5 +243,16 @@
       </div>
       <span class="copyright">Teo Ren Zhong John © 2020</span>
     </footer>
+
+    <script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
+    <script>
+      progressively.init({
+        delay: 0,
+        onLoadComplete: function() {
+          console.log("All images loaded!");
+        }
+      });
+    </script>
+
   </body>
 </html>
