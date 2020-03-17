@@ -263,6 +263,7 @@ img {
 
 .column {
   display: inline-grid;
+  overflow: hidden;
 }
 
 .column h4 {
