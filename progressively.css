@@ -11,7 +11,7 @@
 }
 
 .progressive--not-loaded {
-  filter: blur(4px);
+  filter: blur(2px);
 }
 
 .progressive--is-loaded {
@@ -21,7 +21,7 @@
 
 @keyframes sharpen {
   from {
-    filter: blur(4px);
+    filter: blur(2px);
   }
   to {
     filter: blur(0px);

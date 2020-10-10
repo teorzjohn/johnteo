@@ -322,6 +322,7 @@ img {
 
 .column {
   display: inline-grid;
+  overflow: hidden;
 }
 .column h6 {
   z-index: 2;
