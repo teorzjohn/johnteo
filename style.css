@@ -561,11 +561,12 @@ footer {
 }
 
 .mainworktext{
-  max-width: 360px;
+  min-width: 100%;
 }
 
 .mainworkcontent img{
   width: 100%;
+  height: 100%;
 }
 
   .grid {
