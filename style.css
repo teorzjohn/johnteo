@@ -185,7 +185,7 @@ nav {
 }
 .mainworkcontent img{
   width: 480px;
-  height: 425px;
+object-fit: contain;
   margin: 0;
   transition: 0.5s;
 }
@@ -444,6 +444,7 @@ footer {
 
 .mainworkcontent{
   flex-direction: column;
+  padding: 48px;
 }
 
 .nothome{
@@ -468,10 +469,6 @@ footer {
   .profileimg {
     display: none;
   }
-
-.mainworkcontent{
-  padding: 48px;
-}
 
 .mainworktext{
   min-width: 360px;
@@ -558,10 +555,11 @@ footer {
 
 .mainworkcontent{
   flex-direction: column;
+  padding: 48px 24px;
 }
 
 .mainworktext{
-  min-width: 100%;
+  min-width: 90%;
 }
 
 .mainworkcontent img{
