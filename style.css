@@ -72,7 +72,7 @@ a:hover {
 }
 
 .title {
-  margin: 160px 0 0px 0;
+  margin: 160px 100px 0px 0px;
 }
 .title2 {
   margin-top:80px;
@@ -312,6 +312,23 @@ img {
   margin-right: 140px;
 }
 
+.nextproject{
+  display:flex;
+  justify-content: flex-end;
+  margin-top:48px;
+}
+.nextproject2{
+  display:flex;
+  justify-content: space-between;
+  margin-top:48px;
+}
+.nextproject3{
+  display:flex;
+  justify-content: flex-start;
+  margin-top:48px;
+}
+
+
 /* Grid stuff for Home */
 
 .grid {
@@ -434,7 +451,9 @@ footer {
     margin: 0 auto;
     padding: 0 24px;
   }
-
+.title {
+  margin: 160px 42px 0px 0px;
+}
 .titlecontainer{
     max-width: 980px;
     margin: 0 24px;
