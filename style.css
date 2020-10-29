@@ -7,7 +7,7 @@ body {
 /* Font Size */
 h1 {
   font-size: 50px; /*3em*/
-  line-height: 80px;/*1.05em*/
+  line-height: 70px;/*1.05em*/
   font-weight: 500;
 }
 
@@ -353,6 +353,7 @@ img {
 .column p {
   margin-bottom: 5px;
   padding-right: 10px;
+  font-weight: 400;
 }
 
 .column img {
